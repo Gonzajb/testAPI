@@ -1,5 +1,7 @@
 ﻿const uri = 'api/todo';
 let todos = null;
+
+
 function getCount(data) {
     const el = $('#counter');
     let name = 'to-do';
